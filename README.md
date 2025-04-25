@@ -1,4 +1,4 @@
-# STL.cpp – World-Class README
+# README - explaining all the STL function works 🛠️
 
 ![STL Container Categories](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Containers_in_C%2B%2B_STL.svg/1200px-Containers_in_C%2B%2B_STL.svg.png)
 
@@ -6,27 +6,27 @@ A complete guide to the 13 STL helpers and containers demonstrated in **stl.cpp*
 
 ---
 
-## Table of Contents
+## Table of Contents 😊
 
-1. [Pair](#1-pair)  
-2. [Vector](#2-vector)  
-3. [List](#3-list)  
-4. [Deque](#4-deque)  
-5. [Stack](#5-stack)  
+1. [Pair](#1-pair-)  
+2. [Vector](#2-vector-)  
+3. [List](#3-list-)  
+4. [Deque](#4-deque-)  
+5. [Stack](#5-stack-)  
 6. [Queue](#6-queue)  
-7. [Priority Queue](#7-priority-queue)  
-8. [Set](#8-set)  
-9. [MultiSet](#9-multiset)  
-10. [Unordered Set](#10-unordered-set)  
+7. [Priority Queue](#7-priority-queue-)  
+8. [Set](#8-set-)  
+9. [MultiSet](#9-multiset-)  
+10. [Unordered Set](#10-unordered-set-)  
 11. [Map](#11-map)  
 12. [MultiMap](#12-multimap)  
 13. [Unordered Map](#13-unordered-map)  
 14. [Differences & Performance](#14-differences--performance)  
-15. [Learn More & Links](#15-learn-more--links)  
+15. [Learn More & Links](#15-learn-more--links-)  
 
 ---
 
-## 1. Pair
+## 1. Pair 🔗
 
 A tiny helper to hold **two** related values.
 
@@ -43,7 +43,7 @@ cout << p.first << " - " << p.second;  // 1 - Hardik
 
 ---
 
-## 2. Vector
+## 2. Vector 📦
 
 A **dynamic array** that resizes automatically.
 
@@ -62,7 +62,7 @@ cout << v[2];               // O(1) random access
 
 ---
 
-## 3. List
+## 3. List 📜
 
 A **doubly linked list**.
 
@@ -82,7 +82,7 @@ ls.erase(it);               // O(1)
 
 ---
 
-## 4. Deque
+## 4. Deque 🔄
 
 A **double-ended queue** with random access.
 
@@ -102,7 +102,7 @@ cout << dq[1];              // O(1)
 
 ---
 
-## 5. Stack
+## 5. Stack 📚
 
 A **LIFO adapter** over a container (default: `deque`).
 
@@ -142,7 +142,7 @@ q.pop();
 
 ---
 
-## 7. Priority Queue
+## 7. Priority Queue ⏫
 
 A **heap** (max-heap by default) adapter.
 
@@ -171,7 +171,7 @@ cout << minpq.top();        // 2
 
 ---
 
-## 8. Set
+## 8. Set 🎯
 
 An **ordered** collection of **unique** elements (RB-tree).
 
@@ -189,7 +189,7 @@ st.insert(2);               // all ops O(log n)
 
 ---
 
-## 9. MultiSet
+## 9. MultiSet 🎯➕
 
 Like `set`, but **allows duplicates**.
 
@@ -208,7 +208,7 @@ ms.erase(ms.find(1));       // remove single occurrence
 
 ---
 
-## 10. Unordered Set
+## 10. Unordered Set 🎲
 
 A **hash-based** set of **unique** elements.
 
@@ -286,7 +286,7 @@ um[1] = "one";              // average O(1)
 | **List**  | Doubly linked list       | No random access; constant-time insert/erase   | O(1) everywhere   | –             |
 | **Deque** | Double-ended dynamic     | O(1) at both ends; random access; more memory  | O(1)@ends / O(n)@mid | O(1)         |
 
-![Vector vs List vs Deque](https://media.geeksforgeeks.org/wp-content/uploads/Vector-vs-List-vs-Deque.png)
+![Vector vs List vs Deque](image1.png)
 
 ### Stack vs Queue vs Priority Queue
 
@@ -296,7 +296,7 @@ um[1] = "one";              // average O(1)
 | **Queue**         | `deque` (default)        | FIFO   | O(1)        | O(1)      |
 | **Priority Queue**| `vector` + heap algos    | Heap   | O(log n)    | O(1)      |
 
-![Stack vs Queue vs Priority Queue](https://media.geeksforgeeks.org/wp-content/uploads/Stack-vs-Queue-vs-Priority-Queue.png)
+![Stack vs Queue vs Priority Queue](image2.png)
 
 ### Set vs MultiSet vs Unordered Set
 
@@ -306,7 +306,7 @@ um[1] = "one";              // average O(1)
 | **MultiSet**      | ordered     | yes        | O(log n)          |
 | **Unordered Set** | hash table  | no         | O(1) avg, O(n) worst |
 
-![Set vs Unordered Set](https://media.geeksforgeeks.org/wp-content/uploads/Set-vs-Multiset-vs-Unordered-Set.png)
+![Set vs Unordered Set](image3.png)
 
 ### Map vs MultiMap vs Unordered Map
 
@@ -316,17 +316,17 @@ um[1] = "one";              // average O(1)
 | **MultiMap**        | ordered     | yes            | O(log n)          |
 | **Unordered Map**   | hash table  | no             | O(1) avg, O(n) worst |
 
-![Map vs Unordered Map](https://media.geeksforgeeks.org/wp-content/uploads/Map-vs-Multimap-vs-UnorderedMap.png)
+![Map vs Unordered Map](image4.png)
 
 ---
 
-## 15. Learn More & Links
+## 15. Learn More & Links 🔗
 
-- **Deep-dive Video**:  
+- 🎥 **Deep-dive Video**:  
   https://www.youtube.com/watch?v=RRVYpIET_RU  
-- **GitHub**:  
+- 💻 **GitHub**:  
   https://github.com/hardik0903  
-- **LinkedIn**:  
+- 🌐 **LinkedIn**:  
   https://www.linkedin.com/in/hardik-pandey-4a836628a/  
 
 *Crafted for clarity, performance insight, and real-world usage.*  
