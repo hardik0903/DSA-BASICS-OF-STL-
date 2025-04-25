@@ -1,6 +1,6 @@
 # README - explaining all the STL function works 🛠️
 
-![STL Container Categories](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Containers_in_C%2B%2B_STL.svg/1200px-Containers_in_C%2B%2B_STL.svg.png)
+![STL Container Categories](image5.jpg)
 
 A complete guide to the 13 STL helpers and containers demonstrated in **stl.cpp**, with simple explanations, side-by-side differences, performance characteristics, and illustrative diagrams.
 
